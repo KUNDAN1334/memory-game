@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .memory-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 25rem;
+    height: 25rem;
+    font-size: 16rem;
+  }
+  
+  .card {
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
